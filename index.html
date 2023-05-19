@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+
+    <!--Ionic FrameWork-->
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css"
+    />
+
+    <!--CSS-->
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+
+  <body bgcolor="black">
+    <ion-card color="dark">
+      <ion-card-header>
+        <ion-card-subtitle>Digital Contact Card</ion-card-subtitle>
+        <ion-card-title>Shubham Mishra [shoo-bhum meesh-rah]</ion-card-title>
+      </ion-card-header>
+
+      <ion-card-content>
+        <div class="flex-container">
+          <div class="flex-child magenta">
+							<img src="./avatar.png" alt = "Hello"></img>
+          </div>
+
+          <div class="flex-child green">
+
+						<p>
+							Hi! This is my digital card. You can find the links to my different profiles below along a with a link to my Resume.
+						</p>
+
+            <div class="flex-container">
+							<div class="flex-child">
+									<ion-icon name="logo-linkedin"></ion-icon>
+									<a href = ".">Linkedin</a>
+							</div>
+							<div class="flex-child">
+									<ion-icon name="logo-github"></ion-icon>
+									<a href = ".">GitHub</a>
+							</div>
+							<div class="flex-child">
+									<ion-icon name="logo-tableau"></ion-icon>
+									<a href = ".">Tableau</a>
+							</div>
+						</div>
+          </div>
+        </div>
+        <div></div>
+      </ion-card-content>
+    </ion-card>
+
+    <ion-footer>
+      <ion-toolbar color="dark">
+        Footer
+      </ion-toolbar>
+    </ion-footer>
+
+    <script src="src/index.js"></script>
+
+    <!--Ionicons-->
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/ionicons/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://cdn.jsdelivr.net/npm/ionicons/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
